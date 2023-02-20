@@ -34,10 +34,10 @@ class SceneItem():
 
 def set_crop(props, prop):
     si = SceneItem(name="Video Capture Device")
-    si.crop_left(100)
-    si.crop_right(100)
-    si.crop_top(100)
-    si.crop_bottom(100)
+    si.crop_left(300)
+    si.crop_right(300)
+    si.crop_top(300)
+    si.crop_bottom(300)
 
 
 def script_properties():
