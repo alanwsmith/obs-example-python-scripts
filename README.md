@@ -1,68 +1,45 @@
 # OBS Example Python Scripts
 
-DRAFT NOTES: 
+This is a collection of prototype scripts
+I put together to figure out how to
+use Python scripts to control OBS.
 
-- All the examples in the `src` folder
-work and do what they say. Draft
-notes about them are here, but haven't
-been cleaned up yet. 
+The name of each file in the `src` directory
+identifies what the script will do.
 
----
+There's a bunch of draft notes in the
+`README_DRAFT.md` file but they are kinda
+all over the place and have not been fully
+vetted and reviewed.
 
-NOTE: These are prototypes to
-sight in on a final script. They're
-useful for that purpose and can
-work as basic examples in some
-cases but that's not their primary
-purpose.
+To use a script, go under the OBS menu:
 
-TODO: Rename the Repo from Examples
-to Prototypes.
-
-NOTE: The scripts get more and more
-complete as they go on. The early
-ones aren't as solid as the later
-ones.
-
-NOTE: This is a draft/scratchpad.
-I've got the parts I need. Keeping
-it public, but it's not cleaned up.
-
-NOTE: These don't all have the cleanup
-reference calls in them. I don't know
-how critical that is for one off scripts.
-Probably something to address regardless.
-
-NOTE: You can get the resolution from
-the default settings, or maybe the source
-settings
-
----
-
-An example set of python scripts for working
-with basic OBS functionality.
-
-I'm not trying to make a full set of example.
-This is just what I'm using as a scratchpad
-for figuring out the parts I need.
-
-The example use a "Test Source".
-
-NOTE:
-
-I'm using this to release the scene:
-
-```python
-obs.obs_scene_release(scene)
+```
+Tools -> Scripts
 ```
 
-I'm not yet sure if anything else needs to be
-released or not.
+Point OBS to your Python Install Path under
+the "Python Settings" tab. For example, on
+my windows machine it's:
 
----
+```
+C:/Users/alan/AppData/Local/Programs/Python/Python310
+```
 
-# Details on transform stuff here:
+At press time, Python 3.11 isn't supported in OBS.
+Some earler versions are, but since these are prototype
+scripts I haven't check them.
 
-https://obsproject.com/docs/reference-scenes.html#c.obs_transform_info
+Switch back to the "Scripts" tab after the Python
+Install path has been set and click the plus
+button to add a script. Some of them run immediately
+and some add buttons into the window that let you
+control them.
 
-https://github.com/upgradeQ/OBS-Studio-Python-Scripting-Cheatsheet-obspython-Examples-of-API/blob/master/src/print_all_source_settings_and_filter_names.py
+Click the trashcan icon with a script selected to
+remove it. (This is how you stop scripts that
+run automatically and don't have buttons to
+control them.)
+
+If you make changes to a script, click the reload
+button beside the trash can to pick them up.
