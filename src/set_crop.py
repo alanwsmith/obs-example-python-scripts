@@ -12,32 +12,32 @@ class SceneItem():
         self.crop = obs.obs_sceneitem_crop()
         obs.obs_sceneitem_get_crop(self.item, self.crop)
 
-    def apply(self):
+    def apply_crop(self):
         obs.obs_sceneitem_set_crop(self.item, self.crop)
 
     def crop_left(self, value):
         self.crop.left = value
-        self.apply()
+        self.apply_crop()
 
     def crop_right(self, value):
         self.crop.right = value
-        self.apply()
+        self.apply_crop()
 
     def crop_top(self, value):
         self.crop.top = value
-        self.apply()
+        self.apply_crop()
 
     def crop_bottom(self, value):
         self.crop.bottom = value
-        self.apply()
+        self.apply_crop()
 
 
 def set_crop(props, prop):
     si = SceneItem(name="Video Capture Device")
-    si.crop_left(300)
-    si.crop_right(300)
-    si.crop_top(300)
-    si.crop_bottom(300)
+    si.crop_left(100)
+    si.crop_right(100)
+    si.crop_top(100)
+    si.crop_bottom(100)
 
 
 def script_properties():
