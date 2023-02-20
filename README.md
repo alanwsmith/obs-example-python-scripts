@@ -1,5 +1,14 @@
 # OBS Example Python Scripts
 
+DRAFT NOTES: 
+
+- All the examples in the `src` folder
+work and do what they say. Draft
+notes about them are here, but haven't
+been cleaned up yet. 
+
+---
+
 NOTE: These are prototypes to
 sight in on a final script. They're
 useful for that purpose and can
