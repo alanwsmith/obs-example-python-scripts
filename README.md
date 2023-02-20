@@ -1,5 +1,20 @@
 # OBS Example Python Scripts
 
+NOTE: These are prototypes to
+sight in on a final script. They're
+useful for that purpose and can
+work as basic examples in some
+cases but that's not their primary
+purpose.
+
+TODO: Rename the Repo from Examples
+to Prototypes.
+
+NOTE: The scripts get more and more
+complete as they go on. The early
+ones aren't as solid as the later
+ones.
+
 NOTE: This is a draft/scratchpad.
 I've got the parts I need. Keeping
 it public, but it's not cleaned up.
