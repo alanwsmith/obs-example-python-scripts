@@ -2,9 +2,18 @@ import obspython as obs
 
 # NOTE: This only works with width
 # right now. 
+
+# NOTE: This is the base width, if you
+# apply a scale the final dimension
+# will take this bast width and multiple
+# it by the scale value
+
 #
 # NOTE: This version does not take
-# crops into account. 
+# crops into account. See the main 
+# obs-position-sources-script project
+# for that
+
 
 class SceneItem():
     def __init__(self, name):

@@ -1,5 +1,11 @@
 import obspython as obs
 
+# NOTE: Log level 400 doesn't show
+# up by default and I haven't figured
+# out how to turn it on, but I don't 
+# need it right now so I'm punting
+# on it. 
+
 def make_logs(props, prop):
     obs.blog(100, "Level 100 == LOG_ERROR")
     obs.blog(200, "Level 200 == LOG_WARNING")

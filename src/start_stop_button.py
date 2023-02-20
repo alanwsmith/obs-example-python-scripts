@@ -7,6 +7,9 @@ import obspython as obs
 # take a while for the stop to register.
 # That could be deal with but it's not
 # something I need at the moment. 
+# 
+# Also, one tick fires after the Stop
+# button is hit. 
 ################################################
 
 

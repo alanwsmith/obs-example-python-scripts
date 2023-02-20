@@ -1,14 +1,11 @@
 import obspython as obs
 
-# Make sure "Video Capture Device" exists 
-
-# There's a bunch of ID stuff in here that I 
-# haven't parsed yet
+source_name = "Video Capture Device"
 
 def get_info(props, prop):
-    source = obs.obs_get_source_by_name("Video Capture Device")
+    source = obs.obs_get_source_by_name(source_name)
     settings = obs.obs_source_get_settings(source)
-    print(obs.obs_data_get_json(settings))
+    obs.blog(300, obs.obs_data_get_json(settings))
 
 def script_properties():
     props = obs.obs_properties_create()

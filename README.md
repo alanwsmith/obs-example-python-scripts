@@ -24,6 +24,10 @@ reference calls in them. I don't know
 how critical that is for one off scripts.
 Probably something to address regardless.
 
+NOTE: You can get the resolution from
+the default settings, or maybe the source
+settings
+
 ---
 
 An example set of python scripts for working
